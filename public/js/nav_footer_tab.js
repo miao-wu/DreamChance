@@ -30,7 +30,7 @@ $(document).ready(function() {
 				$(this).removeClass('normal_hover').addClass('scroll_hover');
 			}).on('mouseleave', function() {
 				$(this).removeClass('scroll_hover');
-				$('.nav_this_page').addClass('scroll_hover');
+				$('.nav_this_page').removeClass('normal_hover').addClass('scroll_hover');
 			});
 		});
 	};
@@ -42,7 +42,7 @@ $(document).ready(function() {
 				$(this).removeClass('scroll_hover').addClass('normal_hover');
 			}).on('mouseleave', function() {
 				$(this).removeClass('normal_hover');
-				$('.nav_this_page').addClass('normal_hover');
+				$('.nav_this_page').removeClass('scroll_hover').addClass('normal_hover');
 			});
 		});
 	};
