@@ -36,22 +36,23 @@
                 isIpad : isIpad
               };
             }();
-			
+
             var searchstr = window.location.search,
                     hashstr = window.location.hash;
 
-            if(os.isAndroid){
-              window.location.replace("https://miao-wu.github.io/DreamChance/mobile/index.html"+searchstr+hashstr);
-            }
-            else if(os.isPc){
+            if(os.isPc){
               window.location.replace("https://miao-wu.github.io/DreamChance/index.html"+searchstr+hashstr);
             }
+            else{
+                window.location.replace("https://miao-wu.github.io/DreamChance/mobile/index.html"+searchstr+hashstr);
+            };
              
 		</script>
 		<script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="public/js/nav_footer_tab.js"></script>
 		<link rel="stylesheet" type="text/css" href="public/css/public_style.css">
 		<link rel="stylesheet" type="text/css" href="home/css/style.css">
+            }
 	</head>
 	<body>
         <div class="nav_wrap">
