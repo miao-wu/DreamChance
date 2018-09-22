@@ -1,0 +1,66 @@
+* {margin: 0;padding: 0;border: 0;border-collapse: collapse;border-spacing: 0;font-family: 兰亭黑-简;}
+
+a {text-decoration: none;}
+
+ul li {list-style: none;}
+
+.cfloat::after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.cfloat {
+	zoom: 1;
+}
+body{width: 100%;}
+h1{font-size: 20px;color: #3E3E3E;}
+h2{font-size: 18px;color: #3E3E3E;}
+h3{font-size: 14px;color: #505050;}
+p,span{font-size: 12px;line-height: 20px;color: #7F7F7F;}
+
+.body_wrap{width: 1038px;padding: 120px 121px;margin: 0 auto;}
+.btn{font-size: 16px;}
+
+.nav_wrap{width: 100%;position: fixed;z-index: 20;top: 0;}
+#nav{padding: 0 120px;margin: 0 auto;}
+.nav_logo{float: left;width: 131.664px;padding: 20px 0;}
+.nav_logo img{width: 100%;}
+.nav_list_wrap{float: right;padding: 26px 0;}
+.nav_list{display: block;float: left;width: 133px;text-align: center;font-size: 16px;margin-right: 20px;}
+.nav_list:nth-last-of-type(1){margin: 0;}
+.nav_list a{display: block;line-height: 36px;}
+
+.nav_normal a{color: #fff;}
+.nav_scroll a{color: #ff6573;}
+
+.normal_hover a{color: #ff6573;}
+.normal_hover{background-color: #fff;border-radius: 18px;box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);}
+
+.scroll_hover a{color: #fff;}
+.scroll_hover{background: linear-gradient(to right,rgba(255, 101, 115, 1.0) 0%,rgba(255, 177, 153, 1.0) 100%);border-radius: 18px;}
+
+.ft{text-align: center;}
+.ft_wrap{background: linear-gradient(to right,rgba(255, 101, 115, 1.0) 0%,rgba(255, 177, 153, 1.0) 100%);}
+.ft_logo{margin-bottom: 40px;}
+.ft_lx_list{width: 386px;margin: 0 auto;display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;justify-content: space-between;}
+.ft_lx{position: relative;}
+.ft_icons{width: 40px;height: 40px;}
+.wx_icons{background:  url('../img/wx_icons.png') 0 0 no-repeat;background-position: 0 -40px;}
+.qq_icons{background:  url('../img/qq_icons.png') 0 0 no-repeat;background-position: 0 -40px;}
+.mail_icons{background:  url('../img/mail_icons.png') 0 0 no-repeat;background-position: 0 -40px;}
+.ft_icons:hover{background-position: 0 0;}
+.hidden{display: none;}
+.lx_code_wrap{width: 120px;position: absolute;top: -145px;left: -40px;z-index: 10;}
+.lx_code{padding: 6px;background-color: #fff;border-radius: 6px;position: relative;z-index: 10;}
+.lx_code img{width: 100%;}
+.horn{width: 20px;height: 20px;-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+transform: rotate(45deg);background-color: #fff;margin: -14px auto 0;position: relative;z-index: 9;}

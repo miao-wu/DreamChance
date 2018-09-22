@@ -1,0 +1,21 @@
+.header_banner_wrap,.contact_us_wrap,.ft_wrap{width: 100%;min-width: 1200px;}
+
+.banner{width: 100%;margin: 0 auto;}
+.banner img{width: 100%;}
+
+.contact_us_title_wrap{text-align: center;padding: 60px 0 20px;}
+.mouse_img{width: 19px;margin: 0 auto;}
+
+#contact{padding: 20px 121px 120px;}
+.contact{text-align: center;}
+.contact p{margin: 40px 0 20px;}
+.contact_code ul{display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;flex-flow: row wrap;justify-content: space-around;margin-top: 40px;}
+.contact_code ul li{width: 183px;}
+.contact_code ul li i{display: block;padding: 5px;margin-bottom: 10px;border: 2px solid #ff6573;border-radius: 10px;}
+.contact_code ul li img{width: 100%;}
+
+

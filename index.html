@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--低版本提示--><!--[if lte IE 9]><style type="text/css">*{ margin: 0; padding: 0;}.topTip{width: 100%;position:fixed; left:0;z-index:99;height: 40px;background: #808080;opacity: 0.5;filter:alpha(opacity=50);	top:0;text-align: center;color: #fff;font: 16px "微软雅黑";line-height: 40px;}</style><div class="topTip">您当前浏览器版本过低，建议使用谷歌或火狐浏览器</div><![endif]-->
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="email=no" name="format-detection">
+		<meta name="keywords" content="关键词" />
+		<meta name="description" content="描述" />
+		<title>梦拾文化</title>
+		<script type="text/javascript">
+            var os = function() {
+              var ua = navigator.userAgent,
+
+                      isQB = /(?:MQQBrowser|QQ)/.test(ua),
+                      isWindowsPhone = /(?:Windows Phone)/.test(ua),
+                      isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
+                      isAndroid = /(?:Android)/.test(ua),
+                      isFireFox = /(?:Firefox)/.test(ua),
+                      isChrome = /(?:Chrome|CriOS)/.test(ua),
+                      isIpad = /(?:iPad|PlayBook)/.test(ua),
+                      isTablet = /(?:iPad|PlayBook)/.test(ua)||(isFireFox && /(?:Tablet)/.test(ua)),
+                      isSafari = /(?:Safari)/.test(ua),
+                      isPhone = /(?:iPhone)/.test(ua) && !isTablet,
+                      isOpen= /(?:Opera Mini)/.test(ua),
+                      isUC = /(?:UCWEB|UCBrowser)/.test(ua),
+                      isPc = !isPhone && !isAndroid && !isSymbian;
+              return {
+                isQB: isQB,
+                isTablet: isTablet,
+                isPhone: isPhone,
+                isAndroid : isAndroid,
+                isPc : isPc,
+                isOpen : isOpen,
+                isUC: isUC,
+                isIpad : isIpad
+              };
+            }();
+
+            var downURL = '//itunes.apple.com/cn/app/qq-2011/id444934666?mt=8' ;
+
+            var searchstr = window.location.search,
+                    hashstr = window.location.hash;
+
+            if(os.isAndroid){
+              window.location.replace("https://miao-wu.github.io/DreamChance/mobile/index.html"+searchstr+hashstr);
+            }
+            else if(os.isPc){
+              window.location.replace("https://miao-wu.github.io/DreamChance/index.html"+searchstr+hashstr);
+            }
+             
+		</script>
+		<script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="public/js/nav_footer_tab.js"></script>
+		<link rel="stylesheet" type="text/css" href="public/css/public_style.css">
+		<link rel="stylesheet" type="text/css" href="home/css/style.css">
+	</head>
+	<body>
+        <div class="nav_wrap">
+        	<div id="nav" class="cfloat nav_normal">
+        		<div class="nav_logo">
+        			<a href="index.html"><img src="public/img/nav_logo.png" alt="nav_logo"></a>
+        		</div>
+        		<div class="nav_list_wrap cfloat">
+        			<ul>
+        				<li class="nav_list nav_this_page">
+        					<a href="index.html">首&nbsp;&nbsp;&nbsp;&nbsp;页</a>
+        				</li>
+        				<li class="nav_list">
+        					<a href="service/service.html">服&nbsp;&nbsp;&nbsp;&nbsp;务</a>
+        				</li>
+        				<li class="nav_list">
+	        				<a href="">案&nbsp;&nbsp;&nbsp;&nbsp;例</a>
+	        			</li>
+        				<li class="nav_list">
+        					<a href="contact_us/contact_us.html">联系我们</a>
+        				</li>
+        			</ul>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="header_banner_wrap">
+        	<div class="header_banner">
+        		<div class="banner">
+        			<img src="home/img/banner.png" alt="banner_img">
+        		</div>
+        	</div>
+        </div>
+
+        <div class="cont_summary_wrap">
+        	<div class="body_wrap cfloat">
+        		<div class="cont_summary">
+                          <h2>梦拾文化</h2>
+                          <p>专注于整合营销的品牌顾问机构，提供全方位多方面的设计服务，专注于平面设计，网页设计领域，团队拥有曾任职于世界500强企业，国内知名设计公司，知名电商平台等的多位高端设计师，专注品牌设计10年，服务的企业100＋，专业，专注，专心。</p>              
+                        </div>
+        		<div class="cont_summary">
+                          <div class="cont_s_list">
+                                  <h2>设计理念</h2>
+                                  <p>化繁为简，精准传达信息。</p>
+                          </div>              
+                          <div class="cont_s_list">
+                                  <h2>专属策划</h2>
+                                  <p>洞察消费者心理，深度挖掘产品卖点，锁定目标群体。</p>
+                          </div>
+                        </div>
+        		<div class="cont_summary">
+                              <div class="cont_s_list">
+                                      <h2>设计团队</h2>
+                                      <p>团队协作，专业设计师的品质保证。</p>
+                              </div>              
+                              <div class="cont_s_list">
+                                      <h2>独到创意</h2>
+                                      <p>独到的创意转化成实际利益点，资深文案实现精准传播。</p>
+                              </div>  
+                        </div>
+        	</div>
+        </div>
+
+        <div class="gad_wrap">
+        	<div id="gadesgin" class="body_wrap">
+        		<div class="til_wrap">
+        			<div class="til_l"></div>
+        			<div class="til">
+        				<h1>平面设计</h1>
+        				<h3>Graphic&nbsp;Artist&nbsp;Designer</h3>
+        			</div>
+        			<div class="til_r"></div>
+        		</div>
+        		<div class="gad_list">
+	    			<div class="gad">
+                        <img src="home/img/gad_vi.png" alt="img">
+                        <h2>视觉形象（VI）设计</h2>
+                        <div class="line"></div>
+                        <p>
+                            我们提供视觉形象（VI）设计服务
+                            <br>深挖品牌文化根源
+                            <br>结合目标群体的特性
+                            <br>设计符合企业的vi识别系统
+                            <br>致力于打造品牌视觉的独特性
+                            <br>使企业更具市场竞争力
+                        </p>
+                    </div>
+	        		<div class="gad">
+                        <img src="home/img/gad_hc.png" alt="img">
+                        <h2>画册海报设计</h2>
+                        <div class="line"></div>
+                        <p>
+                            专业设计师
+                            <br>一对一服务
+                            <br>根据行业属性，流行趋势
+                            <br>设计符合行业特性的画册及海报
+                            <br>各种规格，标准用色，用心做设计
+                            <br>做有档次的画册海报设计
+                        </p>
+                    </div>
+	        		<div class="gad">
+                        <img src="home/img/gad_dy.png" alt="img">
+                        <h2>单页展架设计</h2>
+                        <div class="line"></div>
+                        <p>
+                            设计经验丰富
+                            <br>结合行业属性
+                            <br>紧扣宣传主题、卖点
+                            <br>专业设计师、文案
+                            <br>主题、卖点优势提炼
+                            <br>品质保证
+                        </p>
+                    </div>
+        		</div>
+        		
+        	</div>
+        </div>
+
+        <div class="wd_wrap">
+        	<div id="webdesgin" class="body_wrap cfloat">
+        		<div class="til_wrap">
+        			<div class="til_l"></div>
+        			<div class="til">
+        				<h1>网页设计</h1>
+        				<h3>Web&nbsp;Design</h3>
+        			</div>
+        			<div class="til_r"></div>
+        		</div>
+        		<div class="web_img_l">
+        			<img src="home/img/web_l_img.png" alt="img">
+        		</div>
+        		<div class="wd_list">
+        			<div class="wd">
+                        <div class="web_list_til">
+            				<div class="web_icons">
+            					<img src="home/img/web_list_icon.png" alt="img">
+            				</div>
+            				<h2>品质保证</h2>
+                        </div>
+        				<p>追求匠心品质，保证原创设计。紧靠流行趋势，结合行业特性，行业属性色彩分明，设计思维缜密，专属定制，将原创进行到底，打造自己的专属品牌。</p>
+        			</div>
+        			<div class="wd">
+                        <div class="web_list_til">
+            				<div class="web_icons">
+            					<img src="home/img/web_list_icon.png" alt="img">
+            				</div>
+            				<h2>代码简洁</h2>
+                        </div>
+        				<p>语义化标签，为程序所想，简洁方便，更好满足搜索引擎。结构清晰，合理方便，方便后期扩展。</p>
+        			</div>
+        			<div class="wd">
+                        <div class="web_list_til">
+            				<div class="web_icons">
+            					<img src="home/img/web_list_icon.png" alt="img">
+            				</div>
+            				<h2>页面兼容</h2>
+                        </div>
+        				<p>pc、移动端双份设计稿，兼容各大主流浏览器。移动端剔除冗沉框架及结构，渲染更迅速，布局更合理。</p>
+        			</div>
+				<div class="lx_btn btn">
+					<a href="#">联系我们</a>
+				</div>
+        		</div>
+        	</div>
+        </div>
+
+		<div class="sc_wrap">
+			<div id="somecase" class="body_wrap">
+				<div class="til_wrap">
+					<div class="til_l"></div>
+					<div class="til">
+						<h1>部分案例</h1>
+						<h3>Some&nbsp;cases</h3>
+					</div>
+					<div class="til_r"></div>
+				</div>
+				<div class="sc_list">
+					<div class="sc"></div>
+					<div class="sc"></div>
+					<div class="sc"></div>
+					<div class="sc"></div>
+					<div class="sc"></div>
+					<div class="sc"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="tb_wrap">
+			<div id="taobao" class="body_wrap">
+				<div class="tb">
+					<h2>访问我们的淘宝店铺</h2>
+					<p>以合理的价格<br>提供比同行业公司更优质的品牌与个人服务</p>
+					<div class="tb_btn btn">
+                        <a href="#">进店查看</a>
+                    </div>
+					<p>优质原创&nbsp;一对一的设计服务</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="ser_wrap">
+			<div id="service" class="body_wrap">
+				<div class="ser">
+					<h2>添加客服咨询</h2>
+					<p>周一至周五：09:00-20:00<br>周六至周日：12:00-20:30</p>
+					<div class="ser_code">
+						<ul>
+                            <li>
+                                <i class="wx_code"><img src="home/img/wx_code.jpg" alt="wx_code"></i>
+                                <span>打开微信扫一扫</span>
+                            </li>
+                            <li>
+                                <i class="wx2_code"><img src="home/img/wx_code.jpg" alt="wx_code"></i>
+                                <span>打开微信扫一扫</span>
+                            </li>
+                            <li>
+                                <i class="qq_code"><img src="home/img/qq_code.jpg" alt="qq_code"></i>
+                                <span>打开QQ扫一扫</span>
+                            </li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="ft_wrap">
+			<div id="footer" class="body_wrap">
+				<div class="ft">
+					<div class="ft_logo">
+						<a href=""><img src="public/img/foot_logo.png" alt="logo"></a>
+					</div>
+					<div class="ft_lx_list">
+						<div class="wx ft_lx">
+                          <div class="lx_code_wrap hidden">
+                              <div class="lx_code"><img src="home/img/wx_code.jpg" alt="wx_code"></div>
+                              <div class="horn"></div>
+                          </div>                  
+                          <div class="wx_icons ft_icons"></div>
+                        </div>
+						<div class="qq ft_lx">
+                            <div class="lx_code_wrap hidden">
+                                <div class="lx_code"><img src="home/img/qq_code.jpg" alt="qq_code"></div>
+                                <div class="horn"></div>
+                            </div>                  
+                            <div class="qq_icons ft_icons"></div>
+                        </div>
+						<div class="mail ft_lx">
+                            <div class="lx_code_wrap hidden">
+                                <div class="lx_code"><img src="home/img/qq_code.jpg" alt="qq_code"></div>
+                                <div class="horn"></div>
+                            </div>                  
+                            <div class="mail_icons ft_icons"></div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
