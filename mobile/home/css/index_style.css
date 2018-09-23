@@ -94,8 +94,8 @@ box-shadow: 0 0.04rem 0.1rem rgba(0, 0, 0, .2);float: left;margin-right: 0.2rem;
 .web_list ul li{margin-top: 0.6rem;}
 .web_list_til h2{float: left;}
 .web_list_til+p{padding-left: 0.64rem;margin-top: 0.2rem;}
-.contacted_btn{width: 2.2rem;margin: 0.4rem auto 0;border-radius: 0.24rem;box-shadow: 0 0.04rem 0.1rem  rgba(0, 0, 0, .2);}
-.contacted_btn a{display: block;font-size: 0.28rem;line-height: 0.52rem;color: #7F7F7F;text-align: center;}
+.contacted_btn{width: 3.2rem;margin: 0.4rem auto 0;border-radius: 0.44rem;box-shadow: 0 0.04rem 0.1rem  rgba(0, 0, 0, .2);}
+.contacted_btn a{display: block;font-size: 0.3rem;line-height: 0.88rem;color: #7F7F7F;text-align: center;}
 
 
 .til p{text-align: center;margin-top: 0.2rem;}
@@ -112,13 +112,5 @@ display: flex;justify-content: space-between;}
 background-size: cover;padding: 0.8rem 0;}
 .taobao h2,.taobao p{text-align: center;color: #fff;}
 .taobao h2{margin-bottom: 0.4rem;}
-.taobao_btn{width: 2rem;margin: 0.2rem auto;background-color: #fff;border-radius: 0.26rem;}
-.taobao_btn a{display: block;font-size: 0.28rem;text-align: center;color: #ff6573;line-height: 0.52rem;}
-
-
-
-
-
-
-
-
+.taobao_btn{width: 3.2rem;margin: 0.2rem auto;background-color: #fff;border-radius: 0.44rem;}
+.taobao_btn a{display: block;font-size: 0.3rem;text-align: center;color: #ff6573;line-height: 0.88rem;}
