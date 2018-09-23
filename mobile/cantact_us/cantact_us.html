@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<meta name="keywords" content="#" />
+		<meta name="description" content="#" />
+		<title>服务</title>
+		<script>
+			var os = function() {
+              var ua = navigator.userAgent,
+
+                      isQB = /(?:MQQBrowser|QQ)/.test(ua),
+                      isWindowsPhone = /(?:Windows Phone)/.test(ua),
+                      isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
+                      isAndroid = /(?:Android)/.test(ua),
+                      isFireFox = /(?:Firefox)/.test(ua),
+                      isChrome = /(?:Chrome|CriOS)/.test(ua),
+                      isIpad = /(?:iPad|PlayBook)/.test(ua),
+                      isTablet = /(?:iPad|PlayBook)/.test(ua)||(isFireFox && /(?:Tablet)/.test(ua)),
+                      isSafari = /(?:Safari)/.test(ua),
+                      isPhone = /(?:iPhone)/.test(ua) && !isTablet,
+                      isOpen= /(?:Opera Mini)/.test(ua),
+                      isUC = /(?:UCWEB|UCBrowser)/.test(ua),
+                      isPc = !isPhone && !isAndroid && !isSymbian;
+              return {
+                isQB: isQB,
+                isTablet: isTablet,
+                isPhone: isPhone,
+                isAndroid : isAndroid,
+                isPc : isPc,
+                isOpen : isOpen,
+                isUC: isUC,
+                isIpad : isIpad
+              };
+            }();
+
+            var searchstr = window.location.search,
+                    hashstr = window.location.hash;
+
+            if(os.isPc){
+              window.location.replace("https://miao-wu.github.io/DreamChance/contact_us/contact_us.html"+searchstr+hashstr);
+            };
+		</script>
+		<link rel="stylesheet" type="text/css" href="../../mobile/public/css/base.css">
+		<link rel="stylesheet" type="text/css" href="css/contact_style.css">
+		<script type="text/javascript" src="../../mobile/public/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="../../mobile/public/js/flexible.min.js"></script>		
+		<script type="text/javascript" src="../../mobile/public/js/nav_tab.js"></script>
+	</head>
+
+	<body>
+		<div class="nav_wrap">
+			<div id="nav" class="nav_list_wrap cfloat">
+				<div class="nav_logo">
+					<img src="../public/img/nav_logo.png" alt="logo">
+				</div>
+				<div class="nav_tab normal"></div>
+			</div>
+			<div class="nav_list hidden">
+				<ul>
+					<li><a href="../index.html">首&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;页</a></li>
+					<li><a href="../service/service.html">服&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务</a></li>
+					<li><a href="">案&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例</a></li>
+					<li class="hidden"><a href="cantact_us.html">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="banner_wrap">
+			<div class="banner">
+				<img src="../../mobile/service/img/banner.jpg" alt="banner">
+			</div>
+		</div>
+
+		<div id="container">
+			<div class="service_wrap">
+		        <h1>联系我们</h1>
+		        <div class="mouse_img">
+		            <img src="../../mobile/public/img/mouse.png" alt="mouse">
+		        </div>
+			</div>
+
+			<div class="contact_wrap">
+				<div class="til_wrap">
+					<a href="sms:12345678900">李先生：12345678900</a>
+					<a href="sms:12345678900">李先生：12345678900</a>
+				</div>
+				<div class="contact">
+					<div class="contact_list">
+						<ul>
+							<li class="code_wrap">
+								<div class="code">
+									<img src="../home/img/wx_code.jpg" alt="img">
+								</div>
+								<p class="remark">微信</p>
+							</li>
+							<li class="code_wrap">
+								<div class="code">
+									<img src="../home/img/wx_code.jpg" alt="img">
+								</div>
+								<p class="remark">微信</p>
+							</li>
+							<li class="code_wrap">
+								<div class="code">
+									<img src="../home/img/qq_code.jpg" alt="img">
+								</div>
+								<p class="remark">QQ</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
