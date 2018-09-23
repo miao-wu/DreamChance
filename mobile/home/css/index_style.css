@@ -58,8 +58,9 @@ p {
 
 .nav_logo{width: 1.32rem;float: left;}
 .nav_tab{width: 0.48rem;float: right;}
-.nav_list{border-bottom: 0.01rem solid #D1D1D1;text-align: center;font-size: 0.32rem;}
-.nav_list ul li{line-height: 0.52rem;border-bottom: 0.01rem solid #D1D1D1;}
+.nav_list{width: 7.5rem;margin: 0 auto; text-align: center;font-size: 0.32rem;}
+.nav_list ul li{line-height: 0.88rem;color: #3e3e3e;background-color: /* #FAF9FD */#fff;border-bottom: 0.01rem solid #D1D1D1;}
+.nav_list a{color: #3e3e3e;}
 .hidden{display: none;}
 
 .nav_scroll{background-color: #fff;border-bottom: 0.01rem solid #D1D1D1;}
@@ -95,7 +96,7 @@ box-shadow: 0 0.04rem 0.1rem rgba(0, 0, 0, .2);float: left;margin-right: 0.2rem;
 .web_list_til h2{float: left;}
 .web_list_til+p{padding-left: 0.64rem;margin-top: 0.2rem;}
 .contacted_btn{width: 3.2rem;margin: 0.4rem auto 0;border-radius: 0.44rem;box-shadow: 0 0.04rem 0.1rem  rgba(0, 0, 0, .2);}
-.contacted_btn a{display: block;font-size: 0.3rem;line-height: 0.88rem;color: #7F7F7F;text-align: center;}
+.contacted_btn a{display: block;font-size: 0.3rem;line-height: 0.88rem;color: #ff6573;text-align: center;}
 
 
 .til p{text-align: center;margin-top: 0.2rem;}
