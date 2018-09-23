@@ -64,7 +64,7 @@ background-size: contain;}
 .scroll{background:  url('../../public/img/nav_collpase_red.png') 0 0 no-repeat;-webkit-background-size: contain;
 background-size: contain;}
 .nav_list ul li{line-height: 0.88rem;color: #3e3e3e;background-color: /* #FAF9FD */#fff;border-bottom: 0.01rem solid #D1D1D1;}
-.nav_list a{display: block;color: #3e3e3e;}
+.nav_list a{color: #3e3e3e;}
 .hidden{display: none;}
 
 .nav_scroll{background-color: #fff;border-bottom: 0.01rem solid #D1D1D1;}
