@@ -96,7 +96,7 @@ box-shadow: 0 0.04rem 0.1rem rgba(0, 0, 0, .2);float: left;margin-right: 0.2rem;
 .web_list_til h2{float: left;}
 .web_list_til+p{padding-left: 0.64rem;margin-top: 0.2rem;}
 .contacted_btn{width: 3.2rem;margin: 0.4rem auto 0;border-radius: 0.44rem;box-shadow: 0 0.04rem 0.1rem  rgba(0, 0, 0, .2);}
-.contacted_btn a{display: block;font-size: 0.3rem;line-height: 0.88rem;color: #7F7F7F;text-align: center;}
+.contacted_btn a{display: block;font-size: 0.3rem;line-height: 0.88rem;color: #ff6573;text-align: center;}
 
 
 .til p{text-align: center;margin-top: 0.2rem;}
