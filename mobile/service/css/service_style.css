@@ -77,7 +77,7 @@ background-size: contain;}
 .mouse_img{width: 0.32rem;margin: 0.1rem auto 0;}
 .mouse_img img{width: 100%;}
 
-.gad_wrap,.web_wrap,.serflow_wrap,.order_wrap{margin-top: 1rem;}
+.gad_wrap,.web_wrap,.serflow_wrap,.order_wrap,.contact_wrap{margin-top: 1rem;}
 .til_wrap{margin-bottom: 0.6rem;}
 .til{text-align: center;}
 .til_bottom{width: 0.32rem;border-bottom: 0.01rem solid #D1D1D1;margin: 0.2rem auto 0;}
