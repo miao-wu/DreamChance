@@ -105,3 +105,12 @@ box-shadow: 0 0.04rem 0.1rem rgba(0, 0, 0, .2);float: left;margin-right: 0.2rem;
 .order_list{width: 100%;}
 .order{padding: 0.2rem;border: 0.02rem solid #ff6573;border-radius: 0.1rem;margin-bottom: 0.2rem;}
 
+.til p{text-align: center;margin-top: 0.2rem;}
+.contact_list ul{width: 100%;display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;justify-content: space-between;}
+.code_wrap{width: 2rem;display: block;}
+.remark{text-align: center;margin-top: 0.1rem;}
+
