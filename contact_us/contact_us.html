@@ -9,6 +9,42 @@
 		<meta name="keywords" content="关键词" />
 		<meta name="description" content="描述" />
 		<title>联系我们</title>
+        <script>
+            var os = function() {
+              var ua = navigator.userAgent,
+
+                      isQB = /(?:MQQBrowser|QQ)/.test(ua),
+                      isWindowsPhone = /(?:Windows Phone)/.test(ua),
+                      isSymbian = /(?:SymbianOS)/.test(ua) || isWindowsPhone,
+                      isAndroid = /(?:Android)/.test(ua),
+                      isFireFox = /(?:Firefox)/.test(ua),
+                      isChrome = /(?:Chrome|CriOS)/.test(ua),
+                      isIpad = /(?:iPad|PlayBook)/.test(ua),
+                      isTablet = /(?:iPad|PlayBook)/.test(ua)||(isFireFox && /(?:Tablet)/.test(ua)),
+                      isSafari = /(?:Safari)/.test(ua),
+                      isPhone = /(?:iPhone)/.test(ua) && !isTablet,
+                      isOpen= /(?:Opera Mini)/.test(ua),
+                      isUC = /(?:UCWEB|UCBrowser)/.test(ua),
+                      isPc = !isPhone && !isAndroid && !isSymbian;
+              return {
+                isQB: isQB,
+                isTablet: isTablet,
+                isPhone: isPhone,
+                isAndroid : isAndroid,
+                isPc : isPc,
+                isOpen : isOpen,
+                isUC: isUC,
+                isIpad : isIpad
+              };
+            }();
+
+            var searchstr = window.location.search,
+                    hashstr = window.location.hash;
+
+            if(!os.isPc){
+              window.location.replace("https://miao-wu.github.io/DreamChance/mobile/contact_us/contact_us.html"+searchstr+hashstr);
+            };
+        </script>
 		<script type="text/javascript" src="../public/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../public/js/nav_footer_tab.js"></script>
         <script type="text/javascript" src="../public/js/banner_animate.js"></script>
