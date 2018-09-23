@@ -6,11 +6,11 @@ $(document).ready(function() {
 		if ($scltop > $navH) {
 			//scroll
 			$('#nav').addClass('nav_scroll');
-            $('.nav_tab').html('<img src="public/img/nav_collpase_red.png" alt="img">');
+            $('.nav_tab').removeClass('normal').addClass('scroll');
 		}else{
 			//normal
 			$('#nav').removeClass('nav_scroll');
-			$('.nav_tab').html('<img src="public/img/nav_collpase_white.png" alt="img">');
+			$('.nav_tab').removeClass('scroll').addClass('normal');
 		};
 	});
 
