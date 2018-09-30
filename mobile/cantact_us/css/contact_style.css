@@ -27,6 +27,8 @@ p {
 	font-weight: lighter;
 }
 
+img{max-width: 100%;height: auto;}
+
 #container {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;

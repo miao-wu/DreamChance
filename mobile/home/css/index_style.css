@@ -27,6 +27,8 @@ p {
 	font-weight: lighter;
 }
 
+img{max-width: 100%;height: auto;}
+
 #container {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -82,7 +84,7 @@ background-size: contain;}
 .til{text-align: center;}
 .til_bottom{width: 0.32rem;border-bottom: 0.01rem solid #D1D1D1;margin: 0.2rem auto 0;}
 
-.gad{display: block;width: 4.4rem;border-radius: 0.2rem;box-shadow: 0 0.04rem 0.12rem 0.02rem rgba(0, 0, 0, 0.3); margin: 0 auto 0.6rem;padding: 0.4rem;text-align: center;}
+.gad{display: block;width: 4.4rem;border-radius: 0.2rem;/* box-shadow: 0 0.04rem 0.12rem 0.02rem rgba(0, 0, 0, 0.3);  */margin: 0 auto 0.6rem;padding: 0.4rem;text-align: center;}
 .gad_img{margin: 0 auto 0.2rem;}
 .gad_img img{width: 100%;}
 .gad_img1{width: 2.1rem;}
