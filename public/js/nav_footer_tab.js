@@ -6,7 +6,7 @@ $(document).ready(function() {
 		var $scltop = $(window).scrollTop();
 		if ($scltop >100) {
 			//scroll
-			$('#nav').css({
+			$('.nav_wrap').css({
 				'background-color':'#fff',
 				'border-bottom':'1px solid #D1D1D1'
 			});
@@ -14,7 +14,7 @@ $(document).ready(function() {
 			TabScrollNav();
 		}else{
 			//normal
-			$('#nav').css({
+			$('.nav_wrap').css({
 				'background-color':'transparent',
 				'border-bottom':'none'
 			});
