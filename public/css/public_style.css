@@ -20,14 +20,15 @@ h1{font-size: 20px;color: #3E3E3E;}
 h2{font-size: 18px;color: #3E3E3E;}
 h3{font-size: 14px;color: #505050;}
 p,span{font-size: 12px;line-height: 20px;color: #7F7F7F;}
+img{max-width: 100%;height: auto;}
 
 .body_wrap{width: 1038px;padding: 120px 121px;margin: 0 auto;}
 .btn{font-size: 16px;}
 
-.nav_wrap{width: 100%;min-width:1200px;position: fixed;z-index: 20;top: 0;}
+.nav_wrap{width: 100%;position: fixed;z-index: 20;top: 0;}
 #nav{-webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
-        box-sizing: border-box;width: 1200px;margin: 0 auto;}
+        box-sizing: border-box;min-width: 1200px;padding: 0 120px;margin: 0 auto;}
 .nav_logo{float: left;width: 131.664px;padding: 20px 0;}
 .nav_logo img{width: 100%;}
 .nav_list_wrap{float: right;padding: 26px 0;}

@@ -1,5 +1,5 @@
 .header_banner_wrap,.cont_summary_wrap,.gad_wrap,.wd_wrap,.tb_wrap,.ser_wrap,.ft_wrap{width: 100%;min-width: 1200px;}
-.banner{width: 100%;max-width:1038px;margin: 0 auto;border-radius: 20px;box-shadow: 0 4px 12px 4px rgba(0, 0, 0, 0.2);overflow: hidden;margin-top: 160px;}
+.banner{width: 100%;margin: 0 auto;}
 .banner img{width: 100%;}
 
 .cont_summary{width: 304px;float: left;margin-right: 62px;}
