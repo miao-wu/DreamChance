@@ -27,8 +27,6 @@ p {
 	font-weight: lighter;
 }
 
-img{max-width: 100%;height: auto;}
-
 #container {
 	-webkit-box-sizing: border-box;
 	   -moz-box-sizing: border-box;
@@ -79,13 +77,17 @@ background-size: contain;}
 .mouse_img img{width: 100%;}
 
 .til_wrap{margin: 0.4rem auto;}
-.til_wrap a{display: block;font-size: 0.28rem;color: #505050;text-align: center;}
+.til_wrap p{font-size: 0.28rem;color: #505050;text-align: center;}
 
 .contact_list ul{width: 100%;display: -webkit-flex;
 display: -moz-flex;
 display: -ms-flex;
 display: -o-flex;
-display: flex;justify-content: space-between;}
-.code_wrap{width: 2rem;display: block;}
+display: flex;justify-content: space-around;-webkit-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-o-flex-wrap: wrap;
+flex-wrap: wrap;}
+.code_wrap{width: 36%;display: block;margin-bottom: 0.2rem;}
 .remark{text-align: center;margin-top: 0.1rem;}
 
