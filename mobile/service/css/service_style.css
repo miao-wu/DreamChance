@@ -110,7 +110,11 @@ box-shadow: 0 0.04rem 0.1rem rgba(0, 0, 0, .2);float: left;margin-right: 0.2rem;
 display: -moz-flex;
 display: -ms-flex;
 display: -o-flex;
-display: flex;justify-content: space-between;}
-.code_wrap{width: 2rem;display: block;}
+display: flex;justify-content: space-around;-webkit-flex-wrap: wrap;
+-moz-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+-o-flex-wrap: wrap;
+flex-wrap: wrap;}
+.code_wrap{width: 36%;display: block;margin-bottom: 0.2rem;}
 .remark{text-align: center;margin-top: 0.1rem;}
 
