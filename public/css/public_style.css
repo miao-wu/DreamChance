@@ -19,7 +19,7 @@ body{width: 100%;}
 h1{font-size: 20px;color: #3E3E3E;}
 h2{font-size: 18px;color: #3E3E3E;}
 h3{font-size: 14px;color: #505050;}
-p,span{font-size: 12px;line-height: 20px;color: #7F7F7F;}
+p,span{font-size: 14px;line-height: 20px;color: #7F7F7F;}
 
 .body_wrap{width: 1038px;padding: 120px 121px;margin: 0 auto;}
 .btn{font-size: 16px;}
